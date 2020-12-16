@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: url('bg.jpg');
+	background-size: cover;
+	font-family: 'Dosis', sans-serif;
+}
+.header_menu{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	color:black;
+	flex-direction: row;
+    align-items: center;
+}
+.logo1{
+    width: 200px;
+    height: 100px;
+}
+
+.logo2{
+    width: 200px;
+    height: 100px;
+}
+
+.menu_list{
+	width: 80%;
+	text-align: center;
+    padding-right: 50px;
+    color: black;
+}
+.menu_list li{
+	
+	text-transform: uppercase;
+	list-style: none;
+	letter-spacing: 2px;
+    padding-left: 50px;
+    color: black;
+}
+.menu_list h1  a{
+	color: #000;
+	text-decoration: none;
+}
+.menu_list li a:hover{
+	color: black;
+}
+.header_content{
+	text-emphasis: none;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: black;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.header_content h2{
+	margin-bottom: 50px;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+}
+.header_content h1{
+	margin-bottom: 50px;
+	font-size: 50px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+}
+.header_content button{
+	height: auto;
+	padding:8px 37px;
+	color: black;
+	font-size: 12px;
+	background-color: transparent;
+	margin-right: 20px;
+}
+.header_content button a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color:black;
+	letter-spacing: 1px;
+}
+footer {
+    background: #343a40;
+    color: #fcfcfc;
+    font-family: "Roboto", sans-serif;
+    padding: 36px;
+  }
+  
+  footer a {
+    color: #fcfcfc;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .footer-container {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin-top: 16px;
+    padding-left: 10px;
+  }
+  
+  footer ul li {
+    margin: 12px 8px;
+  }
+  
+  footer .footer-left {
+    padding-right: 100px;
+    border-right: 1px solid #c4c4c4;
+  }
+  
+  footer .footer-right {
+    padding-left: 100px;
+  }
+  
+  footer .social-icons {
+    margin-top: 20px;
+  }
+  
+  footer .social-icons a {
+    text-decoration: none;
+  }
+  
+  footer .social-icons img {
+    margin: 0 16px;
+  }
+  
+  footer .social-icons img:first-child {
+    margin-left: 0;
+  }
+  
+  footer .footer-right p {
+    margin-top: 32px;
+  }
+  
+  .imglogo{
+  height:40px;
+  width:40px;
+  border-radius:4px;
+  }
+  
